@@ -13,4 +13,32 @@ body {
     position: relative;
     border-radius: 1vh;
     align-items: center;
+    text-align: center;
+}
+
+.login-btn{
+    width: 40%;
+    height: 3em;
+    background-color:#e8ecf2;
+    border: 4px solid #e8ecf2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: 0.5s;
+    border-radius: 9999px;
+    box-shadow: -5px -5px 10px rgba(255, 255, 255, 0.8), 5px 5px 10px rgba(0, 0, 0, 0.25);
+    cursor: pointer;
+}
+
+input {
+    border: none;
+    background-color: rgba(123, 169, 179, 0.15);
+    height: 3em;
+    border-radius: 0.25em;
+    text-align: center;
+    padding: 2em;
+}
+
+input:focus {
+    outline-color: rgb(41, 111, 127);
 }
