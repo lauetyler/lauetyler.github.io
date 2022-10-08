@@ -1,4 +1,16 @@
 
 body {
     background-color: rgba(123, 169, 179, 0.8);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.innerBox{
+    background-color: #e8ecf2;
+    width: 30vw;
+    height: 35vh;
+    position: relative;
+    border-radius: 1vh;
+    align-items: center;
 }
