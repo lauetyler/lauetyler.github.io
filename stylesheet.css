@@ -13,6 +13,7 @@ body {
 }
 
 .innerBox{
+    margin-top: 100px;
     background-color: #e8ecf2;
     width: 50vw;
     height: 70vh;
