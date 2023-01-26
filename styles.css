@@ -12,7 +12,9 @@ header {
 }
 
 nav {
-    background-color: black;
+    background-image: url("blackbackground.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
     width: 150px;
     height: 100vh;
     padding: 20px;
@@ -20,23 +22,45 @@ nav {
     display: flex;
     flex-direction: column;
 }
+img {
+  width: 50px;
+  transition: all 0.2s ease-in-out;
+}
+
+img:hover {
+  transform: scale(1.1);
+filter: hue-rotate(90deg) brightness(0.5) saturate(50%);
+}
+.img-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20px;
+}
+
+.img-container img {
+  width: 30px;
+  height: 30px;
+  margin: 10px;
+}
 
 ul {
     list-style-type: none;
     margin: 0;
     padding: 0;
+    margin-bottom: 100px;
 }
 
 li {
     height: 30px;
-    /* set a fixed width */
     margin: 10px;
+    margin-bottom: 50px;
     text-align: center;
 }
 
 li a:hover {
-    font-size: 18px;
-    color: gray;
+    font-size: 17px;
+    color: coral;
 }
 
 li a {
@@ -51,6 +75,7 @@ a {
 .name {
     font-size: 24px;
     font-weight: bold;
-    margin-bottom: 40px;
+    margin-bottom: 100px;
+    margin-top: 60px;
     text-align: center;
 }
