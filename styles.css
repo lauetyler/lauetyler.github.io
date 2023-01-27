@@ -13,13 +13,10 @@ header {
 }
 
 .menubar {
-    background-image: url("texturedblackbackground.jpg");
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 150px;
+    width: 120px;
     height: 100vh;
     padding: 20px;
-    color: white;
+    background-color: #201E1E;
     display: flex;
     flex-direction: column;
 }
@@ -37,13 +34,13 @@ header {
     animation: background-animation 60s linear infinite;
     display: flex;
     width: 100%;
+    height: 100%;
     flex-direction: row;
 }
 
 .aboutme-text {
     display: flex;
     width: 50%;
-    margin-left: 10vw;
     align-content: center;
     justify-content: center;
     flex-direction: column;
@@ -64,6 +61,33 @@ header {
     margin: 10px;
     border-radius: 5px;
     box-shadow: 5px 5px 10px #888888;
+}
+
+.browserpic-container {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    height: 100%;
+} 
+
+.browserpic{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: auto;
+    margin-bottom: auto;
+    width: 80%;
+    /*
+    width: 80%;
+    display: flex;
+    max-width: 300px;
+    */
+}
+
+.lightbulb {
+    width: 80%;
+    display: flex;
+    max-width: 500px;
 }
 
 .icon {

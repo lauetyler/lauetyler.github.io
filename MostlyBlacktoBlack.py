@@ -4,7 +4,7 @@ from PIL import Image
 
 import os
 print("opening image")
-file_path = "H:\Coding\Personal\lauetyler.github.io\lightbulb.jpg"
+file_path = "H:\Coding\Personal\lauetyler.github.io\lightbulborange.jpg"
 # file_path = os.path.join(os.getcwd(), 'linkedin.png')
 
 print("Trying to retrieve image from: ", file_path)
