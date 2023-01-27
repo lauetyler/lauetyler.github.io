@@ -1,9 +1,10 @@
 body {
     background-color: white;
     color: black;
-    font-family: 'Montserrat', sans-serif;
+    font-family: 'Courier', monospace;
     margin: 0;
     min-height: 100vh;
+    display: flex;
 }
 
 header {
@@ -22,26 +23,41 @@ nav {
     display: flex;
     flex-direction: column;
 }
-img {
-  width: 50px;
-  transition: all 0.2s ease-in-out;
+
+.content-container {
+    flex: 1;
+    padding: 30px;
+    /* other content-container styles */
 }
 
-img:hover {
-  transform: scale(1.1);
-filter: hue-rotate(90deg) brightness(0.5) saturate(50%);
+.profilepic{
+    width: width: 100%;
+    max-width: 500px;
+/*    margin-top: 20px;*/
+    margin: 0 auto;
+    
 }
+
+.icon {
+    width: 50px;
+    transition: all 0.2s ease-in-out;
+}
+.icon:hover {
+    transform: scale(1.1);
+    filter: hue-rotate(90deg) brightness(0.5) saturate(50%);
+}
+
 .img-container {
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
 }
 
 .img-container img {
-  width: 30px;
-  height: 30px;
-  margin: 10px;
+    width: 30px;
+    height: 30px;
+    margin: 10px;
 }
 
 ul {
