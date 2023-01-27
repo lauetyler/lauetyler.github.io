@@ -1,7 +1,7 @@
 body {
     background-color: white;
     color: black;
-    font-family: 'Courier', monospace;
+    font-family: 'Dekko';
     margin: 0;
     min-height: 100vh;
     display: flex;
@@ -12,8 +12,8 @@ header {
     padding: 0;
 }
 
-nav {
-    background-image: url("blackbackground.jpg");
+.menubar {
+    background-image: url("texturedblackbackground.jpg");
     background-repeat: no-repeat;
     background-size: cover;
     width: 150px;
@@ -25,65 +25,84 @@ nav {
 }
 
 .content-container {
-    flex: 1;
-    padding: 30px;
-    /* other content-container styles */
+    display: flex;
+    width: 100%;
+    flex-direction: row;
+}
+
+.aboutme-text{
+    display: flex;
+    width: 50%;
+    margin-left: 10vw;
+    align-content: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.profilepic-container {
+    margin-top: 100px;
+    margin-right: 10vw;
+    display: flex;
+    justify-content: center;
+    width: 50%;
 }
 
 .profilepic{
-    width: width: 100%;
-    max-width: 500px;
-/*    margin-top: 20px;*/
-    margin: 0 auto;
-    
+    width: 80%;
+    display: flex;
+    max-width: 300px;
+    margin: 10px;
+    border-radius: 5px;
+    box-shadow: 5px 5px 10px #888888;
 }
 
 .icon {
     width: 50px;
     transition: all 0.2s ease-in-out;
 }
+
 .icon:hover {
     transform: scale(1.1);
     filter: hue-rotate(90deg) brightness(0.5) saturate(50%);
 }
 
-.img-container {
+.icon-div {
     display: flex;
     justify-content: center;
     align-items: center;
     margin-top: 20px;
 }
 
-.img-container img {
+.icon-div img {
     width: 30px;
     height: 30px;
     margin: 10px;
 }
 
-ul {
+.menu-list-div {
     list-style-type: none;
     margin: 0;
     padding: 0;
     margin-bottom: 100px;
 }
 
-li {
+.menu-list-item {
     height: 30px;
     margin: 10px;
     margin-bottom: 50px;
     text-align: center;
 }
 
-li a:hover {
+.menu-list-item a:hover {
     font-size: 17px;
     color: coral;
 }
 
-li a {
+.menu-list-item a {
     transition: font-size 0.1s;
 }
 
-a {
+.menu-link {
     color: white;
     text-decoration: none;
 }
