@@ -24,13 +24,23 @@ header {
     flex-direction: column;
 }
 
+@keyframes background-animation {
+    from {
+        background-position: 0 0;
+    }
+    to {
+        background-position: 100% 0;
+    }
+}
+
 .content-container {
+    animation: background-animation 60s linear infinite;
     display: flex;
     width: 100%;
     flex-direction: row;
 }
 
-.aboutme-text{
+.aboutme-text {
     display: flex;
     width: 50%;
     margin-left: 10vw;
@@ -47,7 +57,7 @@ header {
     width: 50%;
 }
 
-.profilepic{
+.profilepic {
     width: 80%;
     display: flex;
     max-width: 300px;
