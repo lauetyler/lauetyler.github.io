@@ -1,0 +1,179 @@
+body {
+    background-color: white;
+    color: black;
+    font-family: 'Dekko';
+    margin: 0;
+    min-height: 100vh;
+    display: flex;
+}
+
+header {
+    display: flex;
+    padding: 0;
+}
+
+.name {
+    font-size: 25px;
+    text-align: center;
+    color: white;
+}
+
+.menubar {
+    width: 150px;
+    height: 100vh;
+    background-color: #201E1E;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menubar-inner {
+    height: 70vh;
+    display: flex;
+    width: 100%;
+    flex-direction: column;
+    justify-content: center;
+    margin: auto;
+}
+
+.menu-list-div {
+    list-style-type: none;
+    margin: auto;
+    padding: 0;
+    height: 40vh;
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.menu-list-item {
+    height: 60px;
+    align-items: center;
+    justify-content: center;
+    display: flex;
+}
+
+.menu-list-item a:hover {
+    font-size: 18px;
+    color: white;
+}
+
+.menu-list-item a {
+    transition: font-size 0.1s;
+    color: #8E8E8E;
+}
+
+.menu-link {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.menu-list-item-selected {
+    height: 60px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #363636;
+}
+
+.menu-list-item-selected a:hover {
+    font-size: 18px;
+    color: white;
+}
+
+.menu-list-item-selected a {
+    transition: font-size 0.1s;
+}
+
+.menu-link-selected {
+    color: white;
+    font-size: 17px;
+    text-decoration: none;
+}
+
+.icon {
+    transition: all 0.2s ease-in-out;
+}
+
+.icon:hover {
+    transform: scale(1.1);
+    filter: hue-rotate(90deg) brightness(0.5) saturate(50%);
+}
+
+.icon-div {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.icon-div img {
+    width: 30px;
+    height: 30px;
+    margin: 10px;
+}
+
+.skills-div {
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+}
+
+.skills-text-div {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+    margin-left: 10%;
+    height: 100vh;
+    background-color: #363636;
+}
+
+
+.codeline {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 2.5vw;
+    align-items: center;
+}
+
+.bluecode {
+    color: #2A7595;
+    font-size: 1.5vw;
+}
+
+.whitecode {
+    color: white;
+    font-size: 1.5vw;
+}
+
+.greencode {
+    color: #5A7D2E;
+    font-size: 1.5vw;
+}
+
+.orangecode {
+    color: #E46B26;
+    font-size: 1.5vw;
+}
+
+
+.skills-browser-div {
+    width: 50%;
+    background-color: #363636;
+    display: flex;
+}
+
+.browser-img-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
+
+.browserpic {
+    margin: auto;
+    width: 90%;
+    margin-right: 8%;
+}
