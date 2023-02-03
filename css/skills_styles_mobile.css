@@ -3,7 +3,7 @@ body {
 }
 
 main{
-    height: 100vh;
+    height: 95vh;
     background-color: #201E1E;
 }
 
@@ -83,12 +83,13 @@ main{
     position: relative;
     display: flex;
     width: 100%;
-    height: 60vw;
     align-items: center;
     justify-content: center;
 }
 
-browserpic-mobile {
-    margin: auto;
-    width: 90%;
+.browser-pic-mobile {
+    width: 90vw;;
+    margin-right: 5vw;
+    margin-left: 5vw;
+    margin-bottom: 5vh;
 }
