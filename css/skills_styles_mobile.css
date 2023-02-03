@@ -43,35 +43,29 @@ main{
 
 .skills-text-div-mobile {
     height: 60vw;
-    margin-left: 10vw;
-    margin-right: 10vw;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    margin: auto;
 }
 
 .codeline {
-    display: flex;
-    flex-direction: row;
-    width: 100%;
     height: 4vw;
-    align-items: center;
 }
 
 .bluecode {
-    color: #2A7595;
     font-size: 3vw;
 }
 
 .whitecode {
-    color: white;
     font-size: 3vw;
 }
 
 .greencode {
-    color: #5A7D2E;
     font-size: 3vw;
 }
 
 .orangecode {
-    color: #E46B26;
     font-size: 3vw;
 }
 
