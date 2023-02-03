@@ -1,8 +1,12 @@
-.menu-bar{
+body {
+    flex-direction: column;
+}
+
+.menu-bar {
     display: none;
 }
 
-.menu-bar-mobile{
+.menu-bar-mobile {
     display: flex;
     width: 100vw;
     background-color: #201E1E;
@@ -10,22 +14,90 @@
     justify-content: end;
 }
 
-.menu-button{
+.menu-button {
     background-color: #201E1E;
     border: none;
     margin-right: 2vw;
 }
 
-.menu-button-image{
-    color: black;
+.menu-button-image {
     width: 5vh;
     height: 5vh;
 }
 
-.skills-div{
+.skills-div {
     display: none;
 }
 
+.skills-div-mobile {
+    margin-top: 7vh;
+    display: flex;
+    background-color: #363636;
+    flex-direction: column;
+}
+
+.skills-text-div-mobile {
+    height: 40vh;
+    margin-left: 10vw;
+    margin-right: 10vw;
+}
+
+.codeline {
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: 4vw;
+    align-items: center;
+}
+
+.bluecode {
+    color: #2A7595;
+    font-size: 3vw;
+}
+
+.whitecode {
+    color: white;
+    font-size: 3vw;
+}
+
+.greencode {
+    color: #5A7D2E;
+    font-size: 3vw;
+}
+
+.orangecode {
+    color: #E46B26;
+    font-size: 3vw;
+}
+
+.skills-browser-div-mobile {
+    margin-top: 3vh;
+}
+
+.browser-img-container-mobile {
+    position: relative;
+    display: flex;
+    width: 100%;
+    align-items: center;
+    justify-content: center;
+}
+
+browserpic-mobile {
+    margin: auto;
+    width: 90%;
+}
 
 
+/*
+.browser-img-container {
+    position: relative;
+    display: flex;
+    width: 100%;
+}
 
+.browserpic {
+    margin: auto;
+    width: 90%;
+    margin-right: 8%;
+}
+*/
