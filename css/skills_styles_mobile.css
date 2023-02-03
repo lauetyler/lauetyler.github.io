@@ -1,0 +1,31 @@
+.menu-bar{
+    display: none;
+}
+
+.menu-bar-mobile{
+    display: flex;
+    width: 100vw;
+    background-color: #201E1E;
+    height: 8vh;
+    justify-content: end;
+}
+
+.menu-button{
+    background-color: #201E1E;
+    border: none;
+    margin-right: 2vw;
+}
+
+.menu-button-image{
+    color: black;
+    width: 5vh;
+    height: 5vh;
+}
+
+.skills-div{
+    display: none;
+}
+
+
+
+
