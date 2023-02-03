@@ -19,9 +19,17 @@ main{
     justify-content: end;
 }
 
+.menu-open{
+    display: flex;
+    width: 100vw;
+    height: 100vh;
+    background-color: 201E1E;
+}
+
 .menu-button {
     background-color: #201E1E;
     border: none;
+    margin: auto;
     margin-right: 2vw;
 }
 

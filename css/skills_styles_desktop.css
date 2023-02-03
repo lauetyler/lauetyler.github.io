@@ -29,6 +29,10 @@ header {
     display: none;
 }
 
+.menu-open{
+    display: none;
+}
+
 .menu-bar-inner {
     height: 70vh;
     display: flex;
