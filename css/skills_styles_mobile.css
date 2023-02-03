@@ -2,6 +2,11 @@ body {
     flex-direction: column;
 }
 
+main{
+    height: 100vh;
+    background-color: #201E1E;
+}
+
 .menu-bar {
     display: none;
 }
@@ -10,7 +15,7 @@ body {
     display: flex;
     width: 100vw;
     background-color: #201E1E;
-    height: 8vh;
+    height: 5vh;
     justify-content: end;
 }
 
@@ -21,8 +26,8 @@ body {
 }
 
 .menu-button-image {
-    width: 5vh;
-    height: 5vh;
+    width: 3vh;
+    height: 3vh;
 }
 
 .skills-div {
@@ -86,18 +91,3 @@ browserpic-mobile {
     margin: auto;
     width: 90%;
 }
-
-
-/*
-.browser-img-container {
-    position: relative;
-    display: flex;
-    width: 100%;
-}
-
-.browserpic {
-    margin: auto;
-    width: 90%;
-    margin-right: 8%;
-}
-*/
